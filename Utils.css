@@ -368,6 +368,15 @@ fieldset:disabled a.btn {
 }
 
 /* ----- Flex ----- */
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
 .flex-row {
   -ms-flex-direction: row !important;
   flex-direction: row !important;
